@@ -1,0 +1,230 @@
+@-moz-document domain("youtube.com") {
+    ytd-watch-metadata {
+        display: none !important;
+    }
+    #meta-contents[hidden],
+    #info-contents[hidden] {
+        display: block !important;
+    }
+
+    ytd-rich-item-renderer {
+        margin-right: 0 !important;
+    }
+
+    #comment-teaser.ytd-watch-metadata {
+        display: none !important;
+    }
+    #owner.ytd-watch-metadata {
+        border: none !important;
+    }
+    ytd-watch-metadata:not([modern-metapanel]) #owner.ytd-watch-metadata {
+        border: none;
+    }
+    ytd-watch-metadata[smaller-yt-sans-light-title] h1.ytd-watch-metadata {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+    }
+    ytd-video-primary-info-renderer[use-yt-sans20-light] .title.ytd-video-primary-info-renderer {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+    }
+
+    .yt-formatted-string[style-target="bold"] {
+        font-weight: 400;
+    }
+
+    #search-icon-legacy {
+        border-radius: 0 2px 2px 0;
+    }
+
+    #voice-search-button ytd-button-renderer {
+        margin-left: 0 !important;
+    }
+
+    ytd-toggle-button-renderer {
+        font-size: 13px !important;
+    }
+
+    ytd-video-primary-info-renderer {
+        --yt-button-icon-size: 30.6px !important;
+    }
+
+    ytd-button-renderer.force-icon-button a.ytd-button-renderer {
+        padding-right: 0;
+    }
+    ytd-video-primary-info-renderer {
+        padding-bottom: 10px;
+        position: relative;
+        bottom: 6px;
+    }
+    .ryd-tooltip-bar-container {
+        padding-top: 0;
+        padding-bottom: 0px;
+        top: -8px;
+        bottom: 0;
+    }
+    #top-row.style-scope.ytd-video-secondary-info-renderer {
+        padding-top: 12px;
+    }
+
+    .yt-spec-button-shape-next--size-m,
+    .yt-spec-touch-feedback-shape__stroke {
+        border: none !important;
+    }
+
+    .yt-spec-button-shape-next.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--segmented-end,
+    .yt-spec-button-shape-next.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-leading {
+        padding-right: 0;
+    }
+
+    ytd-download-button-renderer {
+        margin: 0 !important;
+    }
+
+    .yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--segmented-end span {
+        padding-left: 6px
+    }
+
+    .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled,
+    .yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled[aria-label="Subscribe to HIM CHANNEL."] {
+        color: white !important;
+        background-color: #CC0000 !important;
+    }
+
+    :not([dark]) yt-button-shape.ytd-subscribe-button-renderer {
+        background-color: var(--yt-spec-general-background-c);
+        border-radius: 3px;
+        padding: 2px;
+    }
+    
+    [dark] yt-button-shape.ytd-subscribe-button-renderer {
+        color: white !important;
+        background-color: #202020 !important;
+    }
+
+    #sponsor-button ytd-button-renderer yt-button-shape {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border: solid 1px #3ea6ff;
+        border-radius: 3px;
+    }
+
+    #sponsor-button ytd-button-renderer yt-button-shape button div span {
+        color: #3ea6ff;
+        text-transform: uppercase;
+    }
+
+    .ytd-subscribe-button-renderer button div span {
+        text-transform: uppercase;
+    }
+
+    .yt-simple-endpoint.style-scope.ytd-subscription-notification-toggle-button-renderer yt-icon-button {
+        background-color: transparent !important;
+    }
+    .yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--segmented-start::after {
+        display: none;
+    }
+    .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal,
+    .yt-spec-touch-feedback-shape__fill {
+        background-color: transparent !important;
+    }
+
+    .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text {
+        background-color: transparent !important;
+    }
+
+    ytd-multi-page-menu-renderer[sheets-refresh],
+    ytd-playlist-panel-renderer[modern-panels]:not([within-miniplayer]) #container.ytd-playlist-panel-renderer,
+    ytd-thumbnail[size=large] a.ytd-thumbnail,
+    ytd-thumbnail[size=large]:before {
+        border-radius: 5px !important;
+    }
+
+    ytd-searchbox[desktop-searchbar-style=rounded_corner_borders_light_btn] #container.ytd-searchbox,
+    ytd-searchbox[desktop-searchbar-style=rounded_corner_autofocus] #container.ytd-searchbox {
+        border-radius: 5px 0 0 5px
+    }
+
+    ytd-searchbox[desktop-searchbar-style=rounded_corner_borders_light_btn] #search-icon-legacy.ytd-searchbox,
+    ytd-searchbox[desktop-searchbar-style=rounded_corner_autofocus] #search-icon-legacy.ytd-searchbox {
+        border-radius: 0 5px 5px 0 !important;
+    }
+    
+    [dark] #search-icon-legacy.ytd-searchbox {
+        background-color: #1f1f1f !important;
+    }
+
+    yt-chip-cloud-chip-renderer[modern-chips][chip-style] {
+        border-radius: 1000px !important;
+    }
+
+    #segmented-dislike-button {
+        margin-left: 6px;
+    }
+
+    ytd-notification-renderer {
+        padding-left: 24px;
+    }
+
+    ytd-thumbnail[size=medium] a.ytd-thumbnail,
+    ytd-thumbnail[size=medium]:before,
+    .yt-simple-endpoint.inline-block.style-scope.ytd-thumbnail,
+    .ytp-videowall-still-round-medium .ytp-videowall-still-image,
+    ytd-channel-video-player-renderer[rounded] #player.ytd-channel-video-player-renderer,
+    ytd-playlist-thumbnail[size=medium] a.ytd-playlist-thumbnail,
+    ytd-playlist-thumbnail[size=medium]:before,
+    .ytp-player-minimized.ytp-rounded-miniplayer .html5-main-video,
+    .ytp-player-minimized.ytp-rounded-miniplayer .ytp-miniplayer-scrim,
+    .ytp-player-minimized.ytp-rounded-miniplayer.html5-video-player,
+    .ytp-ce-video.ytp-ce-large-round,
+    .ytp-ce-playlist.ytp-ce-large-round,
+    .ytp-ce-large-round .ytp-ce-expanding-overlay-background,
+    ytd-macro-markers-list-item-renderer[rounded] #thumbnail.ytd-macro-markers-list-item-renderer,
+    .ytp-sb-subscribe.ytp-sb-rounded,
+    .ytp-sb-unsubscribe.ytp-sb-rounded {
+        border-radius: 5px !important;
+    }
+
+    .yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--segmented-start {
+        border-radius: 5px !important;
+        position: relative;
+    }
+
+    ytd-rich-metadata-renderer[rounded] {
+        border-radius: 5px;
+    }
+
+    .yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--icon-only-default,
+    .yt-spec-button-shape-next.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next--icon-button {
+        background-color: transparent !important;
+    }
+    
+    :not([dark]) .ytd-player, :not([dark]) #container.ytd-playlist-panel-renderer {
+        box-shadow: 0px 4px 32px 0px var(--yt-spec-static-overlay-background-light)
+    }
+
+    [dark] {
+        --yt-spec-base-background: black !important;
+        --yt-spec-menu-background: #0f0f0f !important;
+        --yt-spec-additive-background: #0f0f0f !important;
+        --yt-spec-brand-background-primary: #0f0f0f !important;
+        --yt-spec-10-percent-layer: #0f0f0f !important;
+        --yt-spec-general-background-a: #060606 !important;
+    }
+
+    [dark] .branding-context-container-inner {
+        background-color: rgba(10, 10, 10, .9) !important;
+    }
+
+    [dark] .ytp-sb-unsubscribe {
+        background-color: #202020 !important;
+        color: white;
+    }
+
+    [dark] #cinematics div {
+        filter: contrast(1.18)
+    }
+}
